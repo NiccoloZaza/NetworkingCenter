@@ -1,4 +1,4 @@
-# NetworkingCenter
+# NetworkCenter
 NetworkingCenter is a compilation of tools which will help you easily detect network state changes on Android
 
 # Download
@@ -12,7 +12,7 @@ dependencies {
 }
 ```
 
-# How do I use NetworkingCenter?
+# How do I use NetworkCenter?
 First of all you should initialize NetworkCenter in your Application class
 ```
 class SampleApp: Application() {
@@ -24,7 +24,7 @@ class SampleApp: Application() {
 ```
 
 
-There are multiple ways of using NetworkingCenter. 
+There are multiple ways of using NetworkCenter. 
 
 You can easily access network state in any object just by using provided extension
 ```

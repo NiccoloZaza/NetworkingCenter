@@ -48,13 +48,13 @@ Or you could access those properties and other ones by using NetworkCenter objec
 ```
 class TestClass {
     fun doSomething1() {
-        if (NetworkCenter.networkAvailable) {
+        if (NetworkCenter.instance.networkAvailable) {
             // Code
         }
     }
 
     fun doSomething2() {
-        if (NetworkCenter.networkState == Connectivity.Connected) {
+        if (NetworkCenter.instance.networkState == Connectivity.Connected) {
             // Code
         }
     }

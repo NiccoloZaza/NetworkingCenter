@@ -16,7 +16,9 @@ abstract class NetworkAwareActivity: Activity(), IOnConnectivityChangeListener {
         connectivity: Connectivity,
         connectivityStrength: ConnectivityStrength,
         connectivityType: ConnectivityType
-    ) {}
+    ) {
+
+    }
     //endregion
 
     //region Overridden Methods

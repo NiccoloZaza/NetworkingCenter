@@ -35,5 +35,11 @@ class CustomAwareActivity : NetworkAwareCompatActivity() {
         network_status_text.text = networkInfo
     }
 
-    private val networkInfo: String get() = if (networkAvailable) "Network Available(${NetworkCenter.instance.connectionType.name})" else "Network Not Available"
+    private val networkInfo: String
+        get() {
+            return if (networkAvailable)
+                "Network Available(${NetworkCenter.instance.connectionType.name})"
+            else
+                "Network Not Available"
+        }
 }

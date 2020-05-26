@@ -8,7 +8,7 @@ repositories {
 }
 
 dependencies {
-  implementation 'com.github.NiccoloZaza:NetworkingCenter:1.0'
+  implementation 'com.github.NiccoloZaza:NetworkingCenter:1.1'
 }
 ```
 
